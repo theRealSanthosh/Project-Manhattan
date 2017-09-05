@@ -31,6 +31,8 @@ namespace ProjectManhattan
 
             /*getInputFromMethod() call gets the inoput from the user and calls the validation method to carry out validation */
 
+            Console.WriteLine("\nEvents Found Near You");
+
             e.createEventInfo(userLocationX, userLocationY);
 
             /*Method call to the createEventInfo() method in class Event.cs creates the list of events and their details */

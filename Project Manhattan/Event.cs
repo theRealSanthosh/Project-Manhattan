@@ -140,7 +140,7 @@ namespace ProjectManhattan
                         int currentEventYLocation = EventXYLocation[index, 1];
                         EventDistanceFromUser[index] = calcualteManhattanDistance(currentEventXLocation, currentEventYLocation, userXLocation, userYLocation);
                         
-                        Console.WriteLine("|" +      "Event ID:" + EventID[index] +       "Event Distance:" + EventDistanceFromUser[index]       +           "|");
+                        Console.WriteLine("|" +      "Event ID:" + EventID[index] +       "    Event Distance:" + EventDistanceFromUser[index]       +           "|");
                         /*Calcualting the Manhattan Distance between X and Y coordinates of events from the EventXYLocation array and the X and Y Coordinates of the user's location */
 
                         for (int ticketIndex = 0; ticketIndex <= NumberOfTicketClasses - 1; ticketIndex++)
