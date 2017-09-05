@@ -26,18 +26,21 @@ namespace ProjectManhattan
         static void Main(string[] args)
         {
 
+            Console.WriteLine("------------Project Manhattan------------");
             getInputFromUser();
 
             /*getInputFromMethod() call gets the inoput from the user and calls the validation method to carry out validation */
 
             e.createEventInfo(userLocationX, userLocationY);
 
-            /*Method call to the createEventInfo() method in class Event.cs creates the list of events and their details */ 
+            /*Method call to the createEventInfo() method in class Event.cs creates the list of events and their details */
+
+            Console.WriteLine("\n\n\nList of Recommended Events"); 
 
             e.displayRecommendedEvents();
             /*Method call to the displayRecommendedEvents() in the class Event.cs displays the list of recommended events based on the lowest price and least distance */ 
 #if DEBUG
-            Console.WriteLine("Press enter to exit...");
+            Console.WriteLine("\nPress enter to exit...");
             Console.ReadLine();
 #endif
         }
