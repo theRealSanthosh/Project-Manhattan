@@ -12,4 +12,9 @@ The application could be used by either from the executable file found in the pa
 On choosing to use Visual Studio, the .sln file could be found the path : \Project Manhattan\ Project Manhattan.sln.
 
 # Assumptions Made
-The application is developed with 
+The application is developed with the following assumptions 
+* The program operates in a world that ranges from -10 to +10 (Y axis), and -10 to +10 (X axis).
+* The user always wants to see the events that are at a closer distance from his location.
+* The user always prefers the lowest price of the tickets for the events that are found at a shorter proximity from his/her current location.
+
+
